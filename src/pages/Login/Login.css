@@ -1,0 +1,88 @@
+
+.wrap {
+    height: 100vh;
+  }
+  .wrap .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background: #f1f1f1;
+  }
+  
+  .wrap .container .inner {
+    width: 380px;
+    height: 430px;
+    padding: 10px 40px;
+    box-sizing: border-box;
+    background: #fff;
+    border: 1px solid #e9e9e9;
+  }
+  
+  
+  h1.logo {
+    font-family: Lobster;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  
+
+
+  .inputId2 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 45px;
+    margin-bottom: 10px;
+    
+  }
+
+.inputId2 {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    background: #fafafa;
+    border: 1px solid #eeeeee;
+    border-radius: 3px;
+    font-size: 14px;
+  }
+  
+  .form .buttonBox span{
+    display: flex;
+    width: 100%;
+    height: 40px;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  
+.buttonBox {
+    width: 100%;
+    height: 100%;
+    background-color: #bfdffd;
+    border: 1px solid #bfdffd;
+    border-radius: 3px;
+  }
+
+  p {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .forgotPassword {
+    font-size: 14px;
+    color: #1275cc;
+    text-decoration-line: none;
+    text-align: center;
+  }
+
+  
+  
+  
