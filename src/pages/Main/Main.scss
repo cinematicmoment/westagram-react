@@ -72,7 +72,7 @@
   
   
   /* main */
-  .main {
+  .warraper {
       display:flex;
       position: relative;
       justify-content: center;
@@ -82,14 +82,14 @@
   
   }
   
-  .wrapper {
+  .main {
       display: flex;
       justify-content: center;
       margin-top: 20px;
   }
   
   
-  .feed {
+  .main_left {
       width: 598px;
       height: fit-content;
       border-top: 0.5px solid #dbdbdb;
@@ -252,6 +252,10 @@
   
     }
     
+    .p_comment {
+      margin-top: 16px;
+    }
+
   .like_profile {
       width: 30px;
       height: 30px;
@@ -298,6 +302,7 @@
     }
   
   .time {
+      margin-top: 5px;
       font-size: 12px;
       color: #adb5bd;
     }

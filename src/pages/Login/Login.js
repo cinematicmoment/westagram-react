@@ -1,10 +1,15 @@
-import React from 'react'
-import './Login.css'
+import React from 'react';
+import './Login.scss';
+import { useNavigate } from 'react-router-dom';
 
 
 export default function Login() {
-    
+        const navigate = useNavigate();
+        const handleLogin = () => 
+            navigate('/main')
+
   return (
+    
         <div className='wrap'>
             <div className='container'>
                 <div className='inner'>
@@ -23,12 +28,13 @@ export default function Login() {
                         type='password'
                         placeholder='비밀번호'
                         />
-                        <button id= 'loginButton'
+
+                        <button
                         className = 'buttonBox'
-                        type='button'
-                        disabled='disabled'>
-                            <span>로그인</span>
+                        onClick={handleLogin}
+                        type='button'>로그인
                         </button>
+                        
                     </form>
                   </div>
                 <div className='passWordForgot'>
@@ -38,28 +44,9 @@ export default function Login() {
                         </a>
                     </p>
                 </div>
-
+                </div>
                 </div>
             </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        </div>
   )
 }
