@@ -11,7 +11,8 @@ export default function Main() {
             <div className="nav">
                 <div className="westagram_logo">
                     <img className="westagram_lg" 
-                    src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/logo.png" />
+                    src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/logo.png"
+                    alt='main_lg' />
                     </div>
                 <div>
                     <h3 className="header_logo">Westagram</h3>
@@ -22,11 +23,14 @@ export default function Main() {
                 placeholder="검색" />
                 <div className="icon_box">
                     <img className="explore_icon" 
-                    src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/explore.png" />
+                    src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/explore.png"
+                    alt= "explore_icon" />
                     <img className="heart_icon" 
-                    src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/heart.png" />
-                    <img className="profile_icon" 
-                    src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/profile.png" />
+                    src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/heart.png"
+                    alt='heart_logo' />
+                    <img className="profile_icon"
+                    src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/profile.png"
+                    alt='profile_icon' />
                 </div>
             </div>
         </header>
@@ -62,23 +66,29 @@ export default function Main() {
                             <div className="emoticon_box2">
                                 <div className="heart_box">
                                     <img className="heart" 
-                                    src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/heart.png" alt="하트" />
+                                    src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/heart.png"
+                                    alt="하트" />
                                 </div>
                                 <div className="comment_box">
                                     <img className="coment" 
-                                    src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/comment.png" alt="코멘트"/>
+                                    src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/comment.png"
+                                    alt="코멘트"/>
                                 </div>
                                 <div className="direct_box">
                                     <img className="direct" 
-                                    src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/share.png" alt="종이비행기"/>
+                                    src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/share.png"
+                                    alt="종이비행기"/>
                                 </div>
                             </div>
                             <div className="bookmark_box">
                                 <img className="bookmark" 
-                                src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/bookmark.png" alt="공유"/>
+                                src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/bookmark.png"
+                                alt="공유"/>
                             </div>
                         </div>
-                        <div className="like_section">
+                        <div 
+                        
+                        className="like_section">
                             <div className="like_people">
                                 <img className="like_profile" 
                                 src="/images/common.jpeg" alt="profile_img" />
@@ -91,7 +101,7 @@ export default function Main() {
                             <div className="comment_info">
                                 <div className="comments_container">
                                     <span className="comment_id">_xxruby</span>
-                                    <span className="comment_content">좋아하는 영화 비포 선셋</span>
+                                    <span className="comment_content">좋아하는 영화</span>
                                 </div>
                             </div>
                         </div>
@@ -105,7 +115,9 @@ export default function Main() {
                                     <span className="span_user2"></span>나도 봐야지!</span>
                                 <div className="comment_like">
                                     <img className="comment_heart" 
-                                    src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/heart.png" alt="하트" />
+                                    src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/heart.png"
+                                    alt="하트" />
+                                    <img className="red_heart" src ="" alt="" />
                                 </div>
                             </li>
                         </ul>
